@@ -29,7 +29,7 @@ describe('Minus', () => {
         it("Should throw an error if 1st argument isn't a num", () => {
             expect(() => minus('2', 2)).toThrowError();
         });
-        it("Should throw an error if 1st argument isn't a num", () => {
+        it("Should throw an error if 2nd argument isn't a num", () => {
             expect(() => minus(2, '2')).toThrowError();
         });
     });
